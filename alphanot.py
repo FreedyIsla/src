@@ -1,4 +1,4 @@
-a=input()
+a=str(input())
 if(a.isalpha()):
     print("Alphabet")
 else:
