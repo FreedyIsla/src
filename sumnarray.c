@@ -1,18 +1,15 @@
-#include<iostream.h>
-#include<conio.h>
+#include<stdio.h>
 void main()
 {
     int a[100],n,k,sum=0;
-    clrscr();
-    cin>>n>>k;
+    scanf("%d%d",n,k);
     for(int i=0;i<n;i++)
     {
-        cin>>a[i];
+        scanf("%d",a[i]);    
     }
     for(i=0;i<k;i++)
     {
         sum=sum+a[i];
     }
-    cout<<sum;
-    getch();
+    printf("%d",sum);
 }
